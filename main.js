@@ -25,3 +25,8 @@ class Ninja {
         console.log("This ninja's name is", this.name);
     }
 }
+
+console.log("*******************************");
+console.log("Ninja Class main.js\n")
+
+let Brian = new Ninja("Brian");
