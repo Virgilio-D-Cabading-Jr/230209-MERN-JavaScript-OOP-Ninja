@@ -23,6 +23,14 @@ class Ninja {
     sayName() {
         console.log("This ninja's name is", this.name);
     }
+
+    /**
+     * Show Stats Method: Logs the ninja's name, health, speed and strength to the console
+     */
+    showStats() {
+        console.log("Ninja Stats ******");
+        console.log("Name:", this.name, "| health:", this.health, "| speed:", this.speed, "| strength:", this.strength);
+    }
 }
 
 console.log("*******************************");
@@ -30,3 +38,4 @@ console.log("Ninja Class main.js\n")
 
 let Brian = new Ninja("Brian");
 Brian.sayName();
+Brian.showStats();
