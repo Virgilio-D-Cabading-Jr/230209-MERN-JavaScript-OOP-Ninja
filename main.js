@@ -18,8 +18,7 @@ class Ninja {
     // *** Methods ******
 
     /**
-     * Say Name Method
-     * Logs the ninja's name to the console
+     * Say Name Method: Logs the ninja's name to the console
      */
     sayName() {
         console.log("This ninja's name is", this.name);
@@ -30,3 +29,4 @@ console.log("*******************************");
 console.log("Ninja Class main.js\n")
 
 let Brian = new Ninja("Brian");
+Brian.sayName();
